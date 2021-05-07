@@ -147,26 +147,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          a = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          fillColor: Colors.white,
-          filled: true,
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            a = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            fillColor: Colors.white,
+            filled: true,
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -176,26 +178,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          b = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            b = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -205,26 +209,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          c = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            c = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -234,26 +240,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          d = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            d = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -263,26 +271,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          e = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            e = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -292,26 +302,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          f = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            f = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -321,26 +333,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          g = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            g = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -350,26 +364,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          h = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            h = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -379,26 +395,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          i = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            i = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -408,26 +426,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          j = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            j = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -437,26 +457,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          k = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            k = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -466,26 +488,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          l = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            l = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -495,26 +519,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          m = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            m = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -524,26 +550,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          n = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            n = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -553,26 +581,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          o = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            o = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
@@ -582,26 +612,28 @@ class _FDFormFieldsState extends State<FDFormFields> {
       padding: EdgeInsets.all(2.0),
       width: MediaQuery.of(context).size.width * 0.15,
       height: MediaQuery.of(context).size.height * 0.07,
-      child: TextFormField(
-        keyboardType: TextInputType.number,
-        onSaved: (val) {
-          p = int.parse(val);
-        },
-        validator: (val) {
-          if (val.isEmpty) {
-            return "fill entry";
-          }
-          return null;
-        },
-        decoration: InputDecoration(
-          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
-          fillColor: Colors.white,
-          filled: true,
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(0),
+      child: ListView(children: [
+        TextFormField(
+          keyboardType: TextInputType.number,
+          onSaved: (val) {
+            p = int.parse(val);
+          },
+          validator: (val) {
+            if (val.isEmpty) {
+              return "fill entry";
+            }
+            return null;
+          },
+          decoration: InputDecoration(
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.zero),
+            fillColor: Colors.white,
+            filled: true,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(0),
+            ),
           ),
         ),
-      ),
+      ]),
     );
   }
 }

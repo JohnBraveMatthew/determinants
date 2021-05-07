@@ -54,7 +54,7 @@ class _TwoDimensionState extends State<TwoDimension> {
             Material(
               elevation: 2,
               child: ListTile(
-                title: Text("Four by Three (4X4)"),
+                title: Text("Four by Four (4X4)"),
                 onTap: () {
                   Navigator.pushReplacementNamed(context, '/four_dimension');
                 },
