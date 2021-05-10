@@ -73,22 +73,30 @@ class _FDFormFieldsState extends State<FDFormFields> {
                           if (_fDformKey.currentState.validate()) {
                             _fDformKey.currentState.save();
                             setState(() {
-                              determinant = (a *
-                                      (f * (k * p - o * l) -
-                                          g * (j * p - n * l) +
-                                          h * (j * o - n * k)) -
-                                  (b *
-                                      (e * (k * p - o * l) -
-                                          g * (l * p - m * l) +
-                                          h * (i * o - n * k))) +
-                                  (c *
-                                      (e * (j * p - n * l) -
-                                          g * (l * p - m * l) +
-                                          h * (i * n - m * j))) -
-                                  (b *
-                                      (e * (j * d - n * k) -
-                                          f * (i * o - m * k) +
-                                          g * (l * m - m * j))));
+                              determinant = (a * f * k * p) -
+                                  (a * f * l * o) -
+                                  (a * g * j * p) +
+                                  (a * g * l * n) +
+                                  (a * h * j * o) -
+                                  (a * h * k * n) -
+                                  (b * e * k * p) +
+                                  (b * e * l * o) +
+                                  (b * g * i * p) -
+                                  (b * g * l * m) -
+                                  (b * h * i * o) +
+                                  (b * h * k * m) +
+                                  (c * e * j * p) -
+                                  (c * e * l * n) -
+                                  (c * f * i * p) +
+                                  (c * f * l * m) +
+                                  (c * h * i * n) -
+                                  (c * h * j * m) -
+                                  (d * e * j * o) +
+                                  (d * e * k * n) +
+                                  (d * f * i * o) -
+                                  (d * f * k * m) -
+                                  (d * g * i * n) +
+                                  (d * g * j * m);
                             });
                           }
                         },
